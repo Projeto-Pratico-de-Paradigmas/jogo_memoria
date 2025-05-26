@@ -50,7 +50,7 @@ defmodule JogoDaMemoria do
       carta_2_valor = Enum.at(cartas_baralhadas, carta2)
 
       IO.puts("\nREVELANDO: Carta 1 (#{carta1}): #{carta_1_valor}")
-      IO.puts("RVELANDO: Carta 2 (#{carta2}): #{carta_2_valor}")
+      IO.puts("REVELANDO: Carta 2 (#{carta2}): #{carta_2_valor}")
 
       cartas_visiveis =
         if carta_1_valor == carta_2_valor do
